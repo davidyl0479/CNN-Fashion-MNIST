@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files (these are large - consider using Git LFS)
+*.pth
+*.pkl
+models/*.pth
+models/*.pkl
+
+# Data files (usually too large for GitHub)
+data/raw/
+data/processed/
+*.csv
+*.npz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Reports and figures (optional - you might want to include these)
+reports/figures/*.png
+reports/figures/*.jpg

@@ -1,0 +1,40 @@
+# Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Data Science and Visualization
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+
+# Development and Interactive Tools
+ipython
+jupyterlab
+notebook
+
+# Logging and Progress
+loguru
+tqdm
+
+# CLI and Configuration
+typer
+python-dotenv
+
+# Testing and Code Quality
+pytest
+ruff
+
+# Machine Learning Utilities
+scikit-learn
+
+# Documentation
+mkdocs
+
+# Package Management
+pip
+
+# Local package in editable mode
+-e .
